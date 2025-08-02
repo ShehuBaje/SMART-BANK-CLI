@@ -1,0 +1,39 @@
+[
+  {
+    "id": "1753714734968",
+    "name": "baje shehu",
+    "email": "shehu@gmail.com",
+    "password": "$2b$10$iW3nX3uWglCwe.loXjMJ7up65OmWa0Nt9v.OIivcDJ9XQiRHSMxBG",
+    "role": "admin",
+    "balance": 8000,
+    "transactions": [
+      {
+        "type": "deposit",
+        "amount": 10000,
+        "date": "2025-07-28T15:00:34.156Z"
+      },
+      {
+        "type": "transfer_out",
+        "to": "summaiya@gmail.com",
+        "amount": 2000,
+        "date": "2025-07-28T15:05:32.765Z"
+      }
+    ]
+  },
+  {
+    "id": "1753715018762",
+    "name": "summaiya",
+    "email": "summaiya@gmail.com",
+    "password": "$2b$10$b/KFk8fbv79S56dINH7rUeyw0D13up253NbrRpCafLhZRppCCbcBq",
+    "role": "user",
+    "balance": 2000,
+    "transactions": [
+      {
+        "type": "transfer_in",
+        "from": "shehu@gmail.com",
+        "amount": 2000,
+        "date": "2025-07-28T15:05:32.772Z"
+      }
+    ]
+  }
+]
